@@ -59,7 +59,7 @@ main{
 
 article{
     margin-top: 100px;
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(128, 128, 128, 0.521);
     border-radius: 25px;
     width: 50vw;
@@ -68,9 +68,10 @@ aside{
     width: 50vw;
     margin-top: 100px;
 }
-.apresentation{
-    padding:20px 10px 30px 10px;
-    margin-bottom: 20px;
+aside > img{
+    width: 500px;
+    margin-left: 20%;
+    margin-top: 100px;
 }
 p{
     text-align: justify;
@@ -119,7 +120,7 @@ form [type="submit"]:hover{
     background-color: rebeccapurple;
     text-decoration: none;
     padding: 5px 8px;
-    margin-left: 26%;
+    margin-left: 35%;
     border: 2px solid rebeccapurple;
     border-radius: 10px;
     color: white;
@@ -130,6 +131,9 @@ form [type="submit"]:hover{
 .cadastro >a:hover{
     background-color: rgb(53, 28, 78);
     border-radius: 13px;
+}
+h3{
+    text-align: center;
 }
 footer{
     background-color: rgba(128, 128, 128, 0.521);
