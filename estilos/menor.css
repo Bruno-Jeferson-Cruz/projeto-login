@@ -1,6 +1,18 @@
 
 @media screen and (max-width: 760px) {
-    aside >img{
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+    article{
+        margin: 120px auto;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+    aside{
         display: none;
+    }
+    form{
+        width: 95%;
     }
 }
