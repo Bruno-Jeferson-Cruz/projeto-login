@@ -1,0 +1,122 @@
+@charset "UTF-8";   
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-color: rgba(128, 128, 128, 0.521);
+    padding: 0px 10px 20px 0px;
+    display: block;
+    align-items: center;
+}
+header h1{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 2px 0px rgb(39, 41, 41);
+}
+header nav{
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+}
+header nav>a{
+    background-color: rebeccapurple;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin: 5px 5px;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+}
+header nav>a:hover{
+    background-color: rgb(53, 28, 78);
+    border-radius: 13px;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../imagens/backgroundjpg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin:10px 0px 0px 20px;
+    padding: 20px;
+}
+
+article{
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.521);
+    border-radius: 25px;
+    margin-right: 50px;
+}
+.apresentation{
+    padding:20px 10px 30px 10px;
+    margin-bottom: 20px;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    text-shadow: 1px 0px black;
+}
+h2,h3{
+    margin: 10px;
+    font-size: 2em;
+    color: rebeccapurple;
+    text-shadow: 1px 2px gray;
+}
+form{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+input{
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+form [type="submit"]{
+    height:50px;
+    width:50%;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+    cursor: pointer;
+}
+.cadastro{
+    padding: 20px;
+}
+.cadastro > a{
+    background-color: rebeccapurple;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin: 5px 5px;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    color: white;
+    transition: .5s;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.521);
+    text-align: center;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
